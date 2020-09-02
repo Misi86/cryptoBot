@@ -1,0 +1,16 @@
+file:///opt/lampp/htdocs/cryptoBot/app/test.php {"mtime":1593267976392,"ctime":1593267837129,"size":176,"etag":"35ag44l105l","orphaned":false}
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class test extends Model
+{
+
+    protected $table = 'test';
+    
+    protected $fillable = [
+        'label'
+    ];
+}
